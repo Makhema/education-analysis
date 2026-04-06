@@ -15,3 +15,16 @@ str(Schools)
 summary(Schools)
 
 #Starting from here going below I will be doing my Analysis.
+
+mean(Schools$Pass_Rate)
+sd(Schools$Pass_Rate)
+
+hist(Schools$Pass_Rate)
+boxplot(Schools$Pass_Rate)
+
+plot(Schools$No_Learners, Schools$Pass_Rate)
+cor(Schools$No_Learners, Schools$Pass_Rate)
+
+#The Average pass rate for the year is 78%
+#The comparison of Rural-Urban
+#The correlation is weak
