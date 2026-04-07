@@ -16,14 +16,28 @@ summary(Schools)
 
 #Starting from here going below I will be doing my Analysis.
 
+table(Schools$Location)
+
 mean(Schools$Pass_Rate)
 sd(Schools$Pass_Rate)
 
+#To show the distribution of the pass rate.
 hist(Schools$Pass_Rate)
-boxplot(Schools$Pass_Rate)
 
-plot(Schools$No_Learners, Schools$Pass_Rate)
+#To show the spread of the pass rate.
+boxplot(Schools$Pass_Rate, main = "Boxplot of school pass rate")
+
+#The relationship between the pass rate and the number of learners.
+plot(Schools$No_Learners, Schools$Pass_Rate, main = "Relationship between the number of learners and pass rate", ylab = "Pass rate", col = "black")
+#Correlation between the number of learners and the pass rate.
 cor(Schools$No_Learners, Schools$Pass_Rate)
+
+#statistical test
+t.test(Pass_Rate ~ Location, data = Schools)
+
+#Linear Model
+model <- lm(Pass_Rate ~ No_Learners + Location, data = Schools)
+summary(model)
 
 #The Average pass rate for the year is 78%
 #The comparison of Rural-Urban
