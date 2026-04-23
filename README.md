@@ -22,4 +22,4 @@ Education.pdf → Summary of everything(Including data visualization, interpreta
 To understand factors affecting school performance,
 To predict the future perfomance.
 
-The analysis is still in progress, as I still have to perfom some of the analysis, Creating graphs, Interpreting the results I am getting.
+The analysis is still in progress, as I still have to perfom some of the analysis, visualization, Interpreting the results I am getting. Lastly I will be predicting the possible outcomes that can occure in the future events.
