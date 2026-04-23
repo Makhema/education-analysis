@@ -1,5 +1,6 @@
 #This is the workspace where I will be Analyzing and Concluding about schools.
 #And I will be predicting the future performance
+#Author Motsoetsoana Makhema
 
 #Setting the working Directory
 setwd("C:\\Users\\motso\\OneDrive\\Documents\\Education_Performance")
