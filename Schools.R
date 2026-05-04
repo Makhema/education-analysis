@@ -40,6 +40,9 @@ t.test(Pass_Rate ~ Location, data = Schools)
 model <- lm(Pass_Rate ~ No_Learners + Location, data = Schools)
 summary(model)
 
+var(Schools$No_Learners)
+table(Schools$School_Name,Schools$Location)
+
 #The Average pass rate for the year is 78%
 #The comparison of Rural-Urban
 #The correlation is weak
