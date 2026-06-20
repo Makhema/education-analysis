@@ -25,6 +25,6 @@ To predict the future perfomance.
 
 To be done:
 
-The analysis is still in progress, as I still have to perfom some of the analysis, visualization, Interpreting the results I am getting. Lastly I will be predicting the possible outcomes that can occur in the future events. The Java Graphical User Interface is still going to be added in here to display the outcome.
+The analysis is still in progress, as I still have to perfom some of the analysis, visualization, Interpreting the results I am getting. Lastly I will be predicting the possible outcomes that can occur in the future events. The Java Graphical User Interface is still going to be added in here to display the outcome. Or Do the same task in Python 
 
 contributor: Makhema Motsoetsoana
