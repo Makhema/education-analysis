@@ -1,7 +1,7 @@
 
 
 #Setting the working Directory
-setwd("C:\\Users\\motso\\OneDrive\\Documents\\Education_Performance")
+setwd("C:\\Users\\motso\\OneDrive\\Documents\\Education_Performance\\scripts")
 
 #Importing the data that I am going to work on.
 Schools = read.csv2("Education.csv", header = TRUE)
