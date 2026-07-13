@@ -1,6 +1,7 @@
 #================================================================
 # Education Performance Analysis Using R
 #Author: Makhema Rethabile Motsoetsoana
+#================================================================
 #Setting the working Directory
 setwd("C:\\Users\\motso\\OneDrive\\Documents\\Education_Performance\\scripts")
 
